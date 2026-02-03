@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/sanderson.bergmann@outlook.com/pipeline_imobiliaria_databricks_datafactory/notebooks/inbound_to_bronze_python"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao-camada-silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/sanderson.bergmann@outlook.com/pipeline_imobiliaria_databricks_datafactory/notebooks/bronze_to_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
