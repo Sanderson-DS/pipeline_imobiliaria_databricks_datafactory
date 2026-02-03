@@ -103,7 +103,3 @@ Validações:
 - Evite deixar cluster “idle”
 - Serverless é ótimo para sessões curtas (principalmente Python/SQL)
 
-## Próximos passos
-- Implementar camada Gold (agregações/KPIs)
-- Testes de qualidade (expectations)
-- Observabilidade: métricas, logs e alertas do pipeline
