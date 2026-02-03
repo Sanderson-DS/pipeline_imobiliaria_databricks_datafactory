@@ -1,15 +1,16 @@
 <img width="1400" height="350" alt="image" src="https://github.com/user-attachments/assets/da17a009-03f2-4605-a971-6a735277f96c" />
 
-## Stack
+## Tech Stack
 
 [![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 [![Azure Databricks](https://img.shields.io/badge/Azure%20Databricks-FF3621?logo=databricks&logoColor=white)](https://learn.microsoft.com/azure/databricks/)
 [![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/azure/data-factory/)
-[![Azure Data Lake Storage Gen2](https://img.shields.io/badge/ADLS%20Gen2-0078D4?logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/azure/storage/blobs/data-lake-storage-introduction/)
+[![ADLS Gen2](https://img.shields.io/badge/ADLS%20Gen2-0078D4?logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/azure/storage/blobs/data-lake-storage-introduction/)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?logo=apachespark&logoColor=white)](https://spark.apache.org/)
-[![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?logo=delta&logoColor=white)](https://delta.io/)
+[![Delta Lake](https://img.shields.io/badge/Delta%20Lake-0A0A0A?logo=delta&logoColor=white)](https://delta.io/)
 [![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-FF3621?logo=databricks&logoColor=white)](https://learn.microsoft.com/azure/databricks/data-governance/unity-catalog/)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
 
 # Pipeline Imobiliário — Azure Databricks + Data Factory + Delta Lake (Bronze/Silver)
 
@@ -41,6 +42,9 @@ Inbound (JSON) → Bronze (Delta raw) → Silver (Delta estruturado)
 - `linkedService/` — linked services (conexões) do Data Factory
 - `factory/` — recursos do Data Factory (artefatos exportados)
 - `data/` — dados de exemplo e/ou artefatos auxiliares
+
+
+#  Quickstart (rodar do zero)
 
 ## Pré-requisitos
 1. Workspace do Azure Databricks com Unity Catalog habilitado
